@@ -16,7 +16,7 @@ DATABASE NAME  : "task_manager"
 # BACKEND - TERMINAL 
 cd backend <br>
 npm install <br>
-npx nodemon server.js (or) npm start
+npx nodemon server.js (or) npm start <br>
 \# OUTPUT
 Running @ localHost 5000 <br>
 MySQL Connected...
