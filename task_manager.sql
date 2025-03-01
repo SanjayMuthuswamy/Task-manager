@@ -42,8 +42,8 @@
   -- Dumping data for table `tasks`
   --
 
-  INSERT INTO `tasks` (`id`, `title`, `description`, `assigned_to`, `status`, `due_date`) VALUES
-  (2, 'Project 1 ', 'FullStack DevelopMent', 'Ms', 'Completed', '2025-01-06');
+  -- INSERT INTO `tasks` (`id`, `title`, `description`, `assigned_to`, `status`, `due_date`) VALUES
+  -- (2, 'Project 1 ', 'FullStack DevelopMent', 'Ms', 'Completed', '2025-01-06');
 
   --
   -- Indexes for dumped tables
