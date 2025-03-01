@@ -2,8 +2,8 @@
 git clone https://github.com/SanjayMuthuswamy/Taskmanager.git
 
 # XAAAMP CONTROL PANEL 
-search XAAMP software
-Run MySql ,  Apache 
+search XAAMP software.
+Run MySql ,  Apache.
 Log (Mysql) - Admin
 
 # phpmyAdmin 
