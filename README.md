@@ -7,7 +7,7 @@ Run MySql ,  Apache<br>
 Log (Mysql) - Admin 
 
 \# phpmyAdmin 
-SQl option -> Paste file:task_manager.sql -> Go <br>
+SQl option -> Paste file:task_manager.sql -> Go -> Reload <br>
  DATABASE CREATEd ?  (Verfiy at Side-panel)
 
 \# SQL
