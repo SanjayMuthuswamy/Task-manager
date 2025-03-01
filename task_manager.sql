@@ -43,7 +43,7 @@
   --
 
   INSERT INTO `tasks` (`id`, `title`, `description`, `assigned_to`, `status`, `due_date`) VALUES
-  (2, 'Project 1 ', 'FullStack DevelopMent', 'I_MS_', 'Completed', '2025-01-06');
+  (2, 'Project 1 ', 'FullStack DevelopMent', 'Ms', 'Completed', '2025-01-06');
 
   --
   -- Indexes for dumped tables
