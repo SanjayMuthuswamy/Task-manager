@@ -1,25 +1,25 @@
 # Task-manager
 git clone https://github.com/SanjayMuthuswamy/Taskmanager.git
 
-# XAAAMP CONTROL PANEL 
+\# XAAAMP CONTROL PANEL 
 search XAAMP software<br>
 Run MySql ,  Apache<br>
 Log (Mysql) - Admin 
 
-# phpmyAdmin 
+\# phpmyAdmin 
 SQl option -> Paste file:task_manager.sql -> Go <br>
-\# DATABASE CREATEd ?  (Verfiy at Side-panel)
+ DATABASE CREATEd ?  (Verfiy at Side-panel)
 
-# SQL
-\# DATABASE NAME  : "task_manager"
+\# SQL
+DATABASE NAME  : "task_manager"
 
 # BACKEND - TERMINAL 
 cd backend <br>
 npm install <br>
 npx nodemon server.js (or) npm start
-# OUTPUT
-\# Running @ localHost 5000 <br>
-\#  MySQL Connected...
+\# OUTPUT
+Running @ localHost 5000 <br>
+MySQL Connected...
 
 # FRONTEND
 run liveServer (index.html)
