@@ -1,26 +1,52 @@
-# Task-manager
+# Task Manager
+
+## Tech Stack
+- **FrontEnd:** HTML, CSS, JavaScript
+- **BackEnd:** Node.js
+- **Database:** MySQL
+
+## Prerequisites
+Ensure you have the following software installed:
+- **XAMPP** (for MySQL & Apache)
+- **Node.js** (Ensure Node.js is installed on your system)
+
+## Clone the Repository
+```sh
 git clone https://github.com/SanjayMuthuswamy/Taskmanager.git
+cd Taskmanager
+```
 
-\# XAAAMP CONTROL PANEL 
-search XAAMP software<br>
-Run MySql ,  Apache<br>
-Log (Mysql) - Admin 
+## XAMPP Control Panel
+1. Open **XAMPP**.
+2. Start **MySQL** and **Apache**.
+3. Open **phpMyAdmin**:
+   - Navigate to `http://localhost/phpmyadmin/`
+   - Select **SQL** option.
+   - Paste the SQL file: `task_manager.sql`.
+   - Click **Go**.
+   - Reload the page.
+   - Verify if the database `task_manager` is created (check the side panel).
 
-\# phpmyAdmin 
-SQl option -> Paste file:task_manager.sql -> Go -> Reload <br>
- DATABASE CREATEd ?  (Verfiy at Side-panel)
+## Database Configuration
+- **Database Name:** `task_manager`
 
-\# SQL
-DATABASE NAME  : "task_manager"
+## Backend Setup
+```sh
+cd backend
+npm install
+npx nodemon server.js  # or use: npm start
+```
 
-# BACKEND - TERMINAL 
-cd backend <br>
-npm install <br>
-npx nodemon server.js (or) npm start <br>
-\# OUTPUT
-Running @ localHost 5000 <br>
+### Expected Output
+```sh
+Running @ localhost:5000
 MySQL Connected...
+```
 
-# FRONTEND
-run liveServer (index.html)
+## Frontend Setup
+1. Open `index.html`.
+2. Run with **Live Server**.
 
+```sh
+# Your task manager is now running!
+```
