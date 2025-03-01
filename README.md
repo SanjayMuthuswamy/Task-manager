@@ -1,9 +1,8 @@
-```markdown
 # Task Manager
 
 ## Tech Stack
-- **FrontEnd:** HTML, CSS, JavaScript
-- **BackEnd:** Node.js
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js
 - **Database:** MySQL
 
 ## Prerequisites
@@ -48,7 +47,4 @@ MySQL Connected...
 1. Open `index.html`.
 2. Use the **Live Server extension in VS Code** or open `index.html` in a browser.
 
-```sh
-# Your task manager is now running!
-```
-```
+### Task Manager is Now Running! 🚀
