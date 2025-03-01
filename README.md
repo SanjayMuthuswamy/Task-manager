@@ -1,3 +1,4 @@
+```markdown
 # Task Manager
 
 ## Tech Stack
@@ -22,7 +23,6 @@ cd Taskmanager
 3. Open **phpMyAdmin**:
    - Navigate to `http://localhost/phpmyadmin/`
    - Select **SQL** option.
-   - Paste the SQL file: `task_manager.sql`.
    - Click **Go**.
    - Reload the page.
    - Verify if the database `task_manager` is created (check the side panel).
@@ -34,6 +34,7 @@ cd Taskmanager
 ```sh
 cd backend
 npm install
+npm install -g nodemon  # Ensure nodemon is installed
 npx nodemon server.js  # or use: npm start
 ```
 
@@ -45,8 +46,9 @@ MySQL Connected...
 
 ## Frontend Setup
 1. Open `index.html`.
-2. Run with **Live Server**.
+2. Use the **Live Server extension in VS Code** or open `index.html` in a browser.
 
 ```sh
 # Your task manager is now running!
+```
 ```
